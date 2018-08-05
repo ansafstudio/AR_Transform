@@ -5,6 +5,7 @@ using UnityEngine;
 public class RotationMgr : MonoBehaviour {
 	public GameObject ObjekRectangle;
     public GameObject ObjekCube;
+	public GameObject ObjekHouse;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,7 @@ public class RotationMgr : MonoBehaviour {
         //Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x, ObjekRectangle.transform.eulerAngles.y - 15f, ObjekRectangle.transform.eulerAngles.z);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x, ObjekCube.transform.eulerAngles.y - 15f, ObjekCube.transform.eulerAngles.z);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x, ObjekHouse.transform.eulerAngles.y - 15f, ObjekHouse.transform.eulerAngles.z);
     }
 
 	public void RotateXObjectLeft()
@@ -28,6 +30,7 @@ public class RotationMgr : MonoBehaviour {
 		//Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x, ObjekRectangle.transform.eulerAngles.y + 15f, ObjekRectangle.transform.eulerAngles.z);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x, ObjekCube.transform.eulerAngles.y + 15f, ObjekCube.transform.eulerAngles.z);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x, ObjekHouse.transform.eulerAngles.y + 15f, ObjekHouse.transform.eulerAngles.z);
 	}
 
 	public void RotateYObjectUp()
@@ -35,6 +38,7 @@ public class RotationMgr : MonoBehaviour {
 		//Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x + 15f, ObjekRectangle.transform.eulerAngles.y, ObjekRectangle.transform.eulerAngles.z);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x + 15f, ObjekCube.transform.eulerAngles.y, ObjekCube.transform.eulerAngles.z);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x + 15f, ObjekHouse.transform.eulerAngles.y, ObjekHouse.transform.eulerAngles.z);
 	}
 
 	public void RotateYObjectDown()
@@ -42,6 +46,7 @@ public class RotationMgr : MonoBehaviour {
 		//Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x - 15f, ObjekRectangle.transform.eulerAngles.y, ObjekRectangle.transform.eulerAngles.z);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x - 15f, ObjekCube.transform.eulerAngles.y, ObjekCube.transform.eulerAngles.z);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x - 15f, ObjekHouse.transform.eulerAngles.y, ObjekHouse.transform.eulerAngles.z);
 	}
 
 	public void RotateZObjectUp()
@@ -49,6 +54,7 @@ public class RotationMgr : MonoBehaviour {
 		//Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x, ObjekRectangle.transform.eulerAngles.y, ObjekRectangle.transform.eulerAngles.z + 15f);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x, ObjekCube.transform.eulerAngles.y, ObjekCube.transform.eulerAngles.z + 15f);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x, ObjekHouse.transform.eulerAngles.y, ObjekHouse.transform.eulerAngles.z + 15f);
 	}
 
 	public void RotateZObjectDown()
@@ -56,5 +62,6 @@ public class RotationMgr : MonoBehaviour {
 		//Objek.transform.Translate(Vector3.right * Time.deltaTime);
 		ObjekRectangle.transform.eulerAngles = new Vector3(ObjekRectangle.transform.eulerAngles.x, ObjekRectangle.transform.eulerAngles.y, ObjekRectangle.transform.eulerAngles.z - 15f);
 		ObjekCube.transform.eulerAngles = new Vector3(ObjekCube.transform.eulerAngles.x, ObjekCube.transform.eulerAngles.y, ObjekCube.transform.eulerAngles.z - 15f);
+		ObjekHouse.transform.eulerAngles = new Vector3(ObjekHouse.transform.eulerAngles.x, ObjekHouse.transform.eulerAngles.y, ObjekHouse.transform.eulerAngles.z - 15f);
 	}
 }
