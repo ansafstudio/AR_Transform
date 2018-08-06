@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour {
 	public GameObject canvasRotation;
 	public GameObject canvasScaling;
 
+	public GameObject[] scriptImage;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -43,6 +45,25 @@ public class UIManager : MonoBehaviour {
 		canvasTranslation.SetActive (false);
 		canvasRotation.SetActive (false);
 		canvasScaling.SetActive (false);
+	}
+
+	public void HideScript()
+	{
+		for (int i = 0; i < scriptImage.Length; i++) {
+			scriptImage [i].SetActive (false);
+		}
+	}
+
+	public void OpenScript(int index)
+	{
+		for (int i = 0; i < scriptImage.Length; i++) {
+			if (index == i) {
+				scriptImage [i].SetActive (true);
+			}else{
+				scriptImage [i].SetActive (false);
+			}
+
+		}
 	}
 
 }
