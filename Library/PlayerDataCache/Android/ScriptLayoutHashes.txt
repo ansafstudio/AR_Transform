@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Data Pribadi/AR/PROJECT/AR_GrafikaKomputer/AR_Transform/AR_Transform/Packages/AR_Transform_v005.apk
+D:/Data Pribadi/AR/PROJECT/AR_GrafikaKomputer/AR_Transform/AR_Transform/Packages/AR_Transform_v006.apk
 SceneListBegin?
 Assets/Scene/Main.unity
 SceneListEnd?

@@ -23,6 +23,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
+	public static bool rectangleActive = false;
+	public static bool houseActive = false;
+
     #region UNITY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
@@ -93,6 +96,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+		if (mTrackableBehaviour.TrackableName == "Marker_Rectangle") {
+			rectangleActive = true;
+		}
+
+		if (mTrackableBehaviour.TrackableName == "Marker_House") {
+			rectangleActive = true;
+		}
     }
 
 
@@ -113,6 +124,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+		if (mTrackableBehaviour.TrackableName == "Marker_Rectangle") {
+			rectangleActive = false;
+		}
+
+		if (mTrackableBehaviour.TrackableName == "Marker_House") {
+			rectangleActive = false;
+		}
     }
 
     #endregion // PROTECTED_METHODS
