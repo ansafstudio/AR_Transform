@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\UIManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ScaleMgr.cs">
     <Files>
-      <File FileName="Assets\Script\ScaleMgr.cs" Line="65" Column="116" />
-      <File FileName="Assets\Script\UIManager.cs" Line="63" Column="39" />
-      <File FileName="Assets\Script\GameMgr.cs" Line="45" Column="174" />
+      <File FileName="Assets\Script\ScaleMgr.cs" Line="77" Column="121" />
+      <File FileName="Assets\Script\UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\GameMgr.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\RotationMgr.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
